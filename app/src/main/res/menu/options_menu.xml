@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Favourite"
+        android:id="@+id/favourite"
+        android:icon="@drawable/ic_favourite"
+        app:showAsAction="always"></item>
+
+    <item android:title="GeoFencing"
+        android:id="@+id/geofencing"
+        android:icon="@drawable/ic_geolocation"
+        app:showAsAction="always"></item>
+
+    <item android:title="Signout"
+        android:id="@+id/signout"
+        android:icon="@drawable/ic_signout"
+        app:showAsAction="always"></item>
+</menu>
